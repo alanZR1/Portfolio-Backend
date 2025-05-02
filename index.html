@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Alan Reyes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sub-tech">Tecnologías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Presentación -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-title">
+                    <div class="profile-pic">
+                        <img src="img/yo.jpg" alt="Alan Reyes">
+                    </div>
+                    <h1>Hola, soy Alan Reyes</h1>
+                </div>
+                <p>
+                    Ingeniero en Mecatrónica enfocado en el desarrollo backend con Python.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/alanZR1" target="_blank" class="btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/alan-reyes-luis-2b819828a/" target="_blank" class="btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:alannreyes02@gmail.com" class="btn">
+                        <i class="fas fa-envelope"></i> Correo
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy Ingeniero en Mecatrónica egresado 
+                    de la Universidad Tecnológica de la Mixteca. 
+                    En mis ultimos años me enfoqué
+                    en el desarrollo backend y crear sistemas
+                    que sean eficientes y escalables.
+                    </p>
+                <p>
+                    Me gusta trabajar con Python y Django, integrar bases de datos SQL y usar herramientas como Docker y Git para asegurar un flujo de trabajo moderno y profesional.
+                </p>
+                <a href="docs/Alan_Reyes_Resume.pdf" download class="btn">
+                    <i class="fas fa-download"></i> Descargar CV
+                </a>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <p>Estos son algunos de los proyectos donde he aplicado mis
+                     conocimientos de backend
+                </p>
+                <div class="project-grid">
+
+                    <!-- Proyecto 1 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">API RESTful para gestión de tareas</h3>
+                        </div>
+                        <p class="project-description">
+                            API desarrollada con Django REST Framework para crear, editar, eliminar y autenticar usuarios y tareas. Incluye pruebas y documentación con Swagger.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>DRF</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/alanZR1/api-tareas" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Sistema de autenticación con JWT</h3>
+                        </div>
+                        <p class="project-description">
+                            Backend construido con Flask y SQLAlchemy que permite registrar y autenticar usuarios usando JSON Web Tokens. Estructura modular, segura y preparada para escalar.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>JWT</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/alanZR1/flask-jwt-auth" target="_blank" class="github-link">
+                                <i class="fab fa-github"></i> Ver en GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Subtítulo -->
+        <section id="sub-tech" class="sub-tech">
+            <div class="container">
+                <h2>Tecnologías</h2>
+            </div>
+        </section>
+
+        <!-- Tecnologías -->
+        <section id="tecnologias" class="technologies">
+            <div class="container">
+                <div class="tech-categories-container">
+
+                    <div class="tech-category">
+                        <h3>Lenguajes y Frameworks</h3>
+                        <div class="tech-columns">
+                            <div class="tech-col">
+                                <div class="tech-item">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Django</span>
+                                </div>
+                            </div>
+                            <div class="tech-col">
+                                <div class="tech-item">
+                                    <i class="fas fa-fire"></i>
+                                    <span>Flask</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-database"></i>
+                                    <span>SQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>Herramientas y DevOps</h3>
+                        <div class="tech-columns">
+                            <div class="tech-col">
+                                <div class="tech-item">
+                                    <i class="fab fa-docker"></i>
+                                    <span>Docker</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-git-alt"></i>
+                                    <span>Git</span>
+                                </div>
+                            </div>
+                            <div class="tech-col">
+                                <div class="tech-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-terminal"></i>
+                                    <span>CLI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact">
+            <div class="link-container">
+                <h2>Contacto</h2>
+                <p><i class="fas fa-phone"></i> Tel: 951 244 32 37</p>
+                <a href="mailto:alannreyes02@gmail.com" class="btn">
+                    <i class="fas fa-envelope"></i> Correo
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alan Reyes.</p>
+    </footer>
+</body>
+</html>
