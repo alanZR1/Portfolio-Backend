@@ -111,7 +111,7 @@ main{
 
 /* Estilos para la descripción */
 .hero-content p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     max-width: 600px; /* Limita el ancho del texto */
     margin-bottom: -1rem;
 }
@@ -188,7 +188,7 @@ main{
     margin-bottom: 1r
 }
 .about p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     max-width: 600px; /* Ancho máximo del texto */
     margin: 10px auto;   /* Centrar el texto */
@@ -326,6 +326,7 @@ main{
 }
 
 .project-tech {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     gap: 0.7rem;
